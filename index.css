@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container
+{
+    background-color: white;
+}
+.header {
+    background-image: url("asset/image/backgroundheader.png");
+    background-size: cover; /* Điều chỉnh kích thước ảnh nền */
+    /* Các thuộc tính CSS khác (nếu cần) */
+    padding: 56px 88px 0px 88px;
+    height: 808px;
+}
+.navigation
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 183px;
+}
+.navLeft
+{
+    width: 1242px;
+    height: 46px;
+    display: flex;
+    list-style: none;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.navLeft >:first-child >img
+{
+    width: 255.327px;
+    height: 40px;
+    margin-right: 24px;
+}
+.navLeft>:nth-child(2)>p
+{
+    width: 97px;
+    height: 55px;
+    padding: 16px;
+    margin-right: 24px;
+}
+.navLeft >:nth-child(3)>p
+{
+    width: 138px;
+    height: 55px;
+    margin-right: 24px;
+    padding: 16px;
+}
+.navLeft >:nth-child(4)>p
+{
+    width: 101px;
+    height: 55px;
+    margin-right: 24px;
+    padding: 16px;
+}
+.navLeft >:nth-child(5)>p
+{
+    width: 104px;
+    height: 55px;
+    margin-right: 24px;
+    padding: 16px;
+}
+.navLeft >:nth-child(6)>p
+{
+    width: 99px;
+    height: 55px;
+    padding: 16px;
+}
+.navRight
+{
+    display: flex;
+
+}
+.navRight>img
+{
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+}
+.navRight>img+img
+{
+    margin-left: 8px;
+    margin-right: 22px;
+}
+.header>h3
+{
+    width: 579px;
+    height: 201px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    color: white;
+    margin-bottom: 178px;
+}
+.lession
+{
+    width: 1264px;
+    height: 280px;
+    padding: 32px;
+    position: absolute;
+    left: calc(50% - 632px);
+    background-color: #7f042d; 
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lession>p
+{
+    width: 616px;
+    height: 55px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+    margin-bottom: 4px;
+}
+.lession>p+p
+{
+    width: 616px;
+    height: 72px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.lession>p+p+p
+{
+    width: 125px;
+    height: 34px;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 32px;
+    font-weight: 600;
+    background-color: #FF753A;
+}
+.newProduct
+{
+    width: 1264px;
+    height: 481px;
+    margin-top: 224px;
+    margin-left: calc(50% - 632px);
+    margin-bottom: 88px;
+}
+.newProduct >hr
+{
+    width: 80px;
+    border: 2px solid red;
+    margin-left: calc(50% - 40px);
+}
+.newProduct>p
+{
+    width: 278px;
+    height: 48px;
+    color: #505050;
+    padding-top: 8px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    margin-bottom: 8px;
+    margin-left: calc(50% - 139px);
+}
+.newProduct> .card
+{
+    display: flex;
+    list-style: none;
+    gap: 32px; 
+}
+
+
+.newProduct>ul>li
+{
+   width: 400px;
+   height: 395px;
+}
+.newProduct .image
+{
+    width: 400px;
+    height: 278px;
+    padding-top: 26px;
+}
+.image>div
+{
+    width: 400px;
+    height: 252px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: gray;
+    position: relative;
+}
+.image>div>img
+{
+    position: absolute;
+    bottom: 12px;
+    width: 314px;
+    height: 260px;
+    left: calc(50% - 157px);
+}
+.info
+{
+    width: 400px;
+    height: 139px;
+    padding: 16px 24px 24px 24px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+}
+.info >div
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+.info>div>p
+{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #252525;
+}
+.info>p
+{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #767676;
+    margin-bottom: 6px;
+}
+.info>p+p
+{
+    width: 118px;
+    height: 22px;
+    padding: 2px 6px;
+    color: #505050;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 20px;
+    border: 1px solid #505050;
+}
+
+.popularFind
+{
+    padding: 88px;
+    background-color: #ECECEC;;
+}
+.popularFind > .redline
+{
+    width: 80px;
+    border: 2px solid red;
+    margin-left: calc(50% - 40px);
+}
+.popularFind> .title
+{
+    width: 272px;
+    height: 48px;
+    color: #505050;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: calc(50% - 136px);
+    margin-bottom: 16px;
+}
+.popularFind > .card
+{
+    width: 1264px;
+    height: 417px;
+    display: flex;
+    list-style: none;
+    margin-left: calc(50% - 632px);
+    gap: 32px;
+}
+
+.popularFind>ul>li>.image>div
+{
+    background-color: white;
+}
+.popularFind>ul>li
+{
+   width: 400px;
+   height: 395px;
+}
+.popularFind> .image
+{
+    width: 400px;
+    height: 278px;
+    padding-top: 26px;
+}
+.gearHeader
+{
+    background-color: #FFF;
+    padding: 88px;
+}
+.gearHeader>.redline
+{
+    width: 80px;
+    border: 2px solid red;
+    margin-left: calc(50% - 40px);
+}
+.gearHeader>.title
+{
+    width: 272px;
+    height: 48px;
+    color: #505050;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: calc(50% - 136px);
+    margin-bottom: 16px;
+}
+.gearHeader>ul
+{
+    width: 1264px;
+    height: 1363px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 607px;
+    list-style: none;
+    grid-row-gap: 48px;
+    grid-column-gap: 17px;
+    margin-left: calc(50% - 632px);
+}
+.gearHeader >.card>:nth-child(1)
+{
+    width: 616px;
+    height: 609px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.gearHeader >.card>:nth-child(1)>img,.gearHeader >.card>:nth-child(2)>img
+{
+    width: 100%;
+    height: 487px;
+}
+.gearHeader >.card>li>div
+{
+    width: 100%;
+    height: 122px;
+    padding: 32px;
+    background-color: #252525;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    margin-top: -4px;
+
+}
+.gearHeader >.card>li>div>h4
+{
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.gearHeader>.card>:nth-child(2)
+{
+    width: 616px;
+    height: 609px;
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+.gearHeader>.card>:nth-child(3),.gearHeader>.card>:nth-child(4),.gearHeader>.card>:nth-child(5)
+{
+    width: 400px;
+    height: 602px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.gearHeader>.card>:nth-child(3)>img,.gearHeader>.card>:nth-child(4)>img,.gearHeader>.card>:nth-child(5)>img
+{
+    width: 100%;
+    height: 480px;
+}
+
+.gearHeader>.card>:nth-child(4)
+{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.gearHeader>.card>:nth-child(5)
+{
+    grid-column-start: 5;
+    grid-column-end: 7;
+
+}
+.navBottom
+{
+    height: 290px;
+    background-color: #505050;
+    display: flex;
+    justify-content: space-between;
+    padding: 69px 52px 0px 100px ;
+}
+.navBottom>.bottomLeft
+{
+    display: flex;
+}
+.navBottom>.bottomLeft>ul
+{
+    list-style: none;
+    color: white;
+    margin-right: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    font-size: 14px;
+}
+.navBottom>.bottomLeft>ul>li>hr
+{
+    width: 58px;
+    border: 2px solid white;
+}
+.navBottom>.bottomLeft>ul>:nth-child(2)>p
+{
+    font-family: 'Work Sans', sans-serif;
+}
+.navBottom>.bottomRight
+{
+   margin-top: 46px;
+}
+.navBottom>.bottomRight>img
+{
+    width: 255px;
+    height: 40px;
+    margin-bottom: 27px;
+}
+.navBottom>.bottomRight>ul
+{
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    margin-left: 137px;
+    height: 20px;
+
+}
+.bar
+{
+    background-color: #252525;
+    padding: 8px 8px 8px 100px;
+}
+.bar>p
+{
+    font-family: 'Montserrat', sans-serif;
+    color: White;
+    font-size: 12.8px;
+}
