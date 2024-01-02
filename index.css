@@ -74,6 +74,10 @@
     height: 55px;
     padding: 16px;
 }
+.fa-solid
+{
+    display: none;
+}
 .navRight
 {
     display: flex;
@@ -182,6 +186,10 @@
    width: 400px;
    height: 395px;
 }
+.newProduct>ul>:last-child
+{
+    display: none;
+}
 .newProduct .image
 {
     width: 400px;
@@ -276,6 +284,10 @@
     list-style: none;
     margin-left: calc(50% - 632px);
     gap: 32px;
+}
+.popularFind>.card>:last-child
+{
+    display: none;
 }
 
 .popularFind>ul>li>.image>div

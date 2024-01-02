@@ -1,0 +1,219 @@
+@media screen and (max-width: 376px)
+{
+    .header
+    {
+        width: 375px;
+        height: 507px;
+        padding: 58px 24px 0px 24px;
+    }
+    .navigation
+    {
+        width: 316px;
+        height: 40px;
+        padding-bottom: 40px;
+        margin-bottom: 100px;
+    }
+    .navLeft
+    {
+        width: 153px;
+        height: 24px;
+    }
+    .navLeft >:first-child >img
+   {
+    width: 153px;
+    height: 100%;
+    margin-right: 0px;
+   }
+   .header>h3
+   {
+    width: 311px;
+    height: 114px;
+    margin-bottom: 110px;
+    font-size: 32px;
+    text-align: center;
+   }
+   .lession
+   {
+    width: 328px;
+    height: 168px;
+    left: calc(50% - 164px);
+   }
+   .lession>p
+{
+    width: 226px;
+    height: 50px;
+    font-size: 21px;
+}
+.lession>p+p
+{
+    width: 226px;
+    height: 30px;
+    font-size: 10px;
+}
+.lession>p+p+p
+{
+    width: 103px;
+    height: 32px;
+    padding: 8px 12px;
+    font-size: 12px;
+    border-radius: 16px;
+}
+.newProduct
+{
+    width: 328px;
+    height: 1735px;
+    margin-top: 139px;
+    margin-left: calc(50% - 164px);
+    margin-bottom: 40px;
+}
+.newProduct>p
+{
+    width: 167px;
+    height: 31px;
+    
+    padding-top: 4px;
+    
+    font-size: 24px;
+    margin-left: calc(50% - 83.5px);
+}
+.newProduct> .card
+{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.newProduct>.card>li
+{
+   width: 328px;
+   height: 417px;
+}
+.newProduct .image
+{
+    width: 100%;
+    height: 278px;
+}
+.image>div
+{
+    width: 100%;
+}
+.info
+{
+    width: 100%;
+}
+.popularFind
+{
+    height: 1816px;
+    padding: 48px 23px 33px 24px;
+}
+.popularFind> .title
+{
+    width: 164px;
+    height: 31px;
+    font-size: 24px;
+    margin-left: calc(50% - 82px);
+    margin-bottom: 8px;
+}
+.popularFind > .card
+{
+    width: 328px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-left: calc(50% - 164px);
+    gap: 8px;
+}
+.popularFind>.card>li
+{
+   width: 100%;
+   height: 417px;
+}
+.popularFind>.card>li> .image
+{
+    width: 100%;
+}
+.popularFind>.card>li> .image>div
+{
+    width: 100%;
+    height: 252px;
+}
+.popularFind>.card>li>.info
+{
+    width: 100%;
+}
+.gearHeader
+{
+    height: 1927px;
+    padding: 40px 24px 0px 24px;
+    margin-bottom: 450px;
+}
+.gearHeader>ul
+{
+    width: 327px;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    margin-left: calc(50% - 163.5px);
+    gap: 24px;
+}
+.gearHeader>.card>li
+{
+    width:100% !important;
+    height: 433px !important;
+}
+.gearHeader>.card>li>img
+{
+    width: 100%;
+    height: 311px !important;
+}
+.navBottom
+{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.navBottom>.bottomLeft
+{
+   width: fit-content;
+}
+.navBottom>.bottomLeft>.first
+{
+    margin-right: 0px;
+}
+.navBottom>.bottomLeft>.second
+{
+    display: none;
+}
+.navBottom>.bottomRight
+{
+    width: fit-content;
+   margin-top: 46px;
+}
+.navBottom>.bottomRight>img
+{
+    display: none;
+}
+.navBottom>.bottomRight>ul
+{
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    height: 20px;
+    margin-left: 0px;
+    margin-bottom: 32px
+}
+.bar
+{
+    display: flex;
+    justify-content: center;
+    padding: 8px 8px 8px 8px;
+}
+.bar>p
+{
+    align-items: center;
+}
+}
